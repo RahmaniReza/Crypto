@@ -45,6 +45,11 @@ kotlin {
             implementation(libs.compose.uiTooling)
         }
         commonMain.dependencies {
+            implementation(project(":core:common"))
+            implementation(project(":core:systemdesign"))
+            implementation(project(":core:data"))
+            implementation(project(":feature:home"))
+
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
