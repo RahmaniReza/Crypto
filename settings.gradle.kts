@@ -31,6 +31,7 @@ include(":androidApp")
 include(":shared")
 include(":core:common")
 include(":core:systemdesign")
+include(":core:network")
 include(":core:data")
 include(":feature:home")
 
